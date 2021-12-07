@@ -1,0 +1,10 @@
+email : opensorc41@gmail.com
+비번 : opensorc123456!
+
+twilio
+아이디 : 이메일과 동일
+비번 : opensorc1234567!
+
+Account SID : AC61824c041f0fb67fa2a97f955cfc3801
+AUTH TOKEN : 9ec38d8378980ec1cfb85e1e90874414
+number : +13605154927
