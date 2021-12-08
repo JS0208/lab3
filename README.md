@@ -7,7 +7,7 @@
 + doc: 발표pdf, 보고서docx
 + scr: 코드파일
  
-[마스크 썼는지 안썼는지 알아내는 인공지능](https://www.youtube.com/watch?v=ncIyy1doSJ8&t=408s) 영상을 이용하여 얼굴을 인식하여 마스크 착용 여부를 확인하는 방법을 확인했습니다. 
+[마스크 썼는지 안썼는지 알아내는 인공지능](https://www.youtube.com/watch?v=ncIyy1doSJ8&t=408s) 영상을 이용하여 얼굴을 인식하여 마스크 착용 여부를 판단하는 방법을 확인했습니다. 
 <br/><br/>
 
 
