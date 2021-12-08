@@ -19,4 +19,5 @@
 [다음영상](https://youtu.be/77FDhErHyjo)에서 웹구현으로 코드를 연결시킨 것을 확인할 수 있습니다. 구체적인 시연영상은 [Mysk 시연 영상](https://youtu.be/rcZo9Og8CxY)과 [검은색 마스크 착용](https://youtu.be/YFCvS6lLdAI) 두가지를 첨부합니다. 
 
 <br/><br/><br/><br/>
-알고리즘 사진 넣어주면 조켓다....
+
+![스크린샷(232)](https://user-images.githubusercontent.com/83858670/145216255-7c559f17-b49f-4726-a44a-b77928a4d9d2.png)
