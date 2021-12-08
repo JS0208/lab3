@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewprot" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .body {
+        margin:0;
+        height:100%;
+        background-image:linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+
+      .menu {
+        height: 70px;
+        border-bottom: 5px solid black;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 40px;
+      }
+      .button_container {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        top: 30;
+        margin-top: 300px
+      }
+      .description, .link {
+        font-family: 'cursive';
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+      }
+      .description {
+        font-size: 40px;
+      }
+      a{
+        text-decoration: none;
+        color: #fff;
+        background: #222;
+        padding: 15px;
+        display: inline-block;
+        width : 200px;
+        margin: 5px;
+        text-align: center;
+      }
+      a:hover{
+        color: #f00;
+        text-decoration: underline;
+      }
+      .btn {
+        border: none;
+        display: bolck;
+        text-align: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        outline: non;
+        overflow: hidden;
+        position: relative;
+        color: #fff;
+        font-weight: 700;
+        font-size: 15px;
+        background-color: #222;
+        padding: 17px 60px;
+        margin: 0 auto;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+      }
+      .btn span {
+        position: relative;
+        z-index: 1;
+      }
+      .btn:after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 490%;
+        width: 140;
+        background: #78c7d2;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+        transform: translateX(-98%) translateY(-25%) rotate(45deg);
+      }
+      .btn:hover:after {
+        -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+        transform: transform(-9%) translateY(-25%) rotate(45deg);
+      }
+      .link {
+        font-size: 20px;
+        margin-top: 30px;
+      }
+      .link a {
+        color: #000;
+        font-size: 25px;
+      }
+
+    </style>
+  </head>
+  <body></body>
+    <div class="linear_gradient"></div>
+    <div class="menu">Mysk</div>
+    <div class="linear_gradient"></div>
+    <div class="button_container">
+	    <p class="description">카메라 인식을 통한 마스크 착용 여부</p>
+      <from action=" " method="POST"></from>
+      <a href="{{url_for('mask_frames')}}">START</a>
+    </div>
+  
